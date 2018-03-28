@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Registration Page</title>
+    <!-- <link rel="stylesheet" type="text/css" href="./page.css"> -->
+</head>
+<h1>Registration Form</h1>
+
+<body>
+    
+    <form action="/signup" method="POST">
+        <div class="container">
+            <label><b>User ID</b></label>
+            <input type="text" placeholder="User ID" name="id" required>
+            <br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Password" name="password" required>
+            <!-- <br>
+            <label><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required> -->
+            <br><br>
+
+            <button type="submit">Sign me up!</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+html
+head
+   title Signup
+body
+   if(message)
+      h4 #{message}
+      form(action = "/signup" method = "POST")
+      input(name = "id" type = "text" required placeholder = "User ID")
+      input(name = "password" type = "password" required placeholder = "Password")
+      button(type = "Submit") Sign me up! -->
